@@ -16,14 +16,6 @@ DopaGate is an innovative iOS application designed to empower you to take contro
 
 ---
 
-## Download DopaGate
-
-Get DopaGate on the App Store today and start taking control of your digital life!
-
-**[Download on the App Store](https://apps.apple.com/app/dopagate/idXXXXXXXXX)** *(Replace XXXXXXXXX with your actual App Store ID)*
-
----
-
 ## Last Updated
 
 This page was last updated on June 16, 2025.
