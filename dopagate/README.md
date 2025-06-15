@@ -8,10 +8,10 @@ DopaGate is an innovative iOS application designed to empower you to take contro
 
 ## Important Links
 
-* **[DopaGate Support Page](https://laplamon.github.io/support/dopagate/support.md)**
+* **[DopaGate Support Page](https://laplamon.github.io/support/dopagate/support)**
     Find answers to common questions, troubleshooting tips, and detailed information about DopaGate's features.
 
-* **[DopaGate Privacy Policy](https://laplamon.github.io/support/dopagate/privacy-policy.md)**
+* **[DopaGate Privacy Policy](https://laplamon.github.io/support/dopagate/privacy-policy)**
     Understand how DopaGate handles your data, including information about third-party services like Google AdMob.
 
 ---
