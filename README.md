@@ -16,9 +16,9 @@ Below is a list of the applications managed within this repository. Please click
 ## Application Specific Sections
 
 ### DopaGate {#dopagate}
-**[DopaGate Support Page](https://laplamon.github.io/support/dopagate/support.md)**
-**[DopaGate Privacy Policy](https://laplamon.github.io/support/dopagate/privacy-policy.md)**
-[Download DopaGate on the App Store](https://apps.apple.com/app/dopagate/idXXXXXXXXX) *(Replace XXXXXXXXX)*
+
+- **[DopaGate Support Page](https://laplamon.github.io/support/dopagate/support.md)**
+- **[DopaGate Privacy Policy](https://laplamon.github.io/support/dopagate/privacy-policy.md)**
 
 ---
 
