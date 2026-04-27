@@ -6,7 +6,7 @@ CalcGate ("the App") respects your privacy. This Privacy Policy explains what in
 
 ## 1. Overview
 
-CalcGate is an app designed to help users restrict access to selected apps until they solve a set of math problems correctly. The App uses Apple's FamilyControls framework to allow users to choose which apps or categories they want to restrict.
+CalcGate is an app designed to help users restrict access to selected apps until they either solve a set of math problems correctly or the preset unlock time chosen by the user is reached. The App uses Apple's FamilyControls framework to allow users to choose which apps or categories they want to restrict.
 
 ## 2. Information the App Handles
 
@@ -16,9 +16,11 @@ The App may store the following information locally on your device:
   - number of digits
   - selected math operations
   - number of questions
+- Time-based unlock settings, such as:
+  - the unlock time or duration selected by the user
 - Selected apps or app categories to restrict
 - Lock status
-- Internal state required to manage unlock requests
+- Internal state required to manage lock and unlock requests
 
 This information is used only to provide the core functionality of the App.
 
@@ -29,7 +31,9 @@ The App uses stored information to:
 - apply app restrictions chosen by the user
 - present the configured math challenge
 - determine whether the user has successfully completed the unlock challenge
+- determine whether the preset unlock time has been reached
 - preserve user preferences between app launches
+- maintain the lock state while a restriction is active
 
 ## 4. Data Storage
 
@@ -66,10 +70,3 @@ You can manage permissions granted to the App through your device settings.
 ## 10. Changes to This Privacy Policy
 
 This Privacy Policy may be updated from time to time. Any updates will be reflected by revising the effective date above.
-
-## 11. Contact
-
-If you have any questions about this Privacy Policy, please contact:
-
-- **Developer / App Support:** [Insert Contact Information]
-- **Support URL:** [Insert Support URL]
