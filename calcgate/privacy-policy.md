@@ -1,72 +1,97 @@
 # Privacy Policy
 
-**Effective Date:**
+Effective Date: 2026-05-13
 
-CalcGate ("the App") respects your privacy. This Privacy Policy explains what information the App handles, how it is used, and what choices you have.
+CalcGate ("the App") respects your privacy. This Privacy Policy explains what information the App handles, how it is used, and your choices regarding that information.
 
 ## 1. Overview
 
-CalcGate is an app designed to help users restrict access to selected apps until they either solve a set of math problems correctly or the preset unlock time chosen by the user is reached. The App uses Apple's FamilyControls framework to allow users to choose which apps or categories they want to restrict.
+CalcGate is a focus and self-control app that helps users intentionally restrict access to selected apps by requiring either a math challenge or the completion of a lock period before access is restored.
+
+The App uses Apple Screen Time technologies, including the FamilyControls framework, to allow users to select apps or app categories to restrict on their own device.
 
 ## 2. Information the App Handles
 
-The App may store the following information locally on your device:
+CalcGate stores information locally on your device that is necessary to provide the App’s functionality. This may include:
 
-- Math challenge settings, such as:
-  - number of digits
-  - selected math operations
-  - number of questions
-- Time-based unlock settings, such as:
-  - the unlock time or duration selected by the user
-- Selected apps or app categories to restrict
-- Lock status
-- Internal state required to manage lock and unlock requests
+* Math challenge settings, such as:
 
-This information is used only to provide the core functionality of the App.
+  * selected difficulty
+  * enabled math operations
+  * number of questions
+* Lock configuration settings, such as:
+
+  * timer durations
+  * scheduled lock times
+  * recurring schedule settings
+* Selected apps or app categories
+* Lock status and active restriction state
+* Temporary unlock override state for scheduled locks
+* Onboarding completion status
+* Internal app state required to manage restrictions and unlock requests
+
+This information is used solely to operate the App’s features.
 
 ## 3. How Information Is Used
 
 The App uses stored information to:
 
-- apply app restrictions chosen by the user
-- present the configured math challenge
-- determine whether the user has successfully completed the unlock challenge
-- determine whether the preset unlock time has been reached
-- preserve user preferences between app launches
-- maintain the lock state while a restriction is active
+* apply and remove app restrictions selected by the user
+* manage manual and scheduled locks
+* generate and present math challenges
+* determine whether unlock requirements have been completed
+* determine whether timer or schedule conditions have ended
+* preserve settings and preferences between app launches
+* maintain lock consistency while restrictions are active
+* support communication between the main app and its Screen Time extension components
 
 ## 4. Data Storage
 
-All app settings and related state are stored locally on the user's device.  
-The App does **not** require account creation.
+All settings, lock data, and related app state are stored locally on the user’s device using standard iOS storage mechanisms, including App Group shared storage where required for Screen Time functionality.
 
-Based on the current app design, the developer does **not** collect, sell, or share personal information with third parties for advertising or marketing purposes.
+The App does not require account creation.
 
-## 5. FamilyControls Permission
+The developer does not collect, transmit, sell, rent, or share personal information with third parties for advertising, analytics, or marketing purposes.
 
-The App requests permission to use Apple's FamilyControls framework in order to let users select apps or categories to restrict. This permission is used only for the intended app-locking functionality.
+## 5. Screen Time / FamilyControls Permission
+
+CalcGate requests permission to use Apple’s Screen Time APIs, including the FamilyControls framework, in order to allow users to select apps or app categories to restrict.
+
+These permissions are used only for the App’s intended restriction and focus-support functionality.
 
 ## 6. Third-Party Services
 
-The App does not currently use third-party analytics, advertising SDKs, or external tracking services as part of its core functionality.
+CalcGate does not currently include:
 
-If this changes in a future version, this Privacy Policy may be updated accordingly.
+* third-party analytics SDKs
+* advertising SDKs
+* external tracking technologies
+* third-party user profiling services
+
+If third-party services are added in a future version, this Privacy Policy may be updated accordingly.
 
 ## 7. Children's Privacy
 
-The App is not intended to knowingly collect personal information from children. If you believe personal information has been provided unintentionally, please contact the developer.
+The App is not intended to knowingly collect personal information from children.
+
+Because CalcGate does not require accounts or collect personal data from users, the App does not knowingly store personally identifiable information from children.
 
 ## 8. Security
 
-The App stores data locally using standard iOS storage mechanisms. While reasonable care is taken to design the App responsibly, no method of electronic storage is completely secure.
+The App stores data locally on the device and does not transmit personal data to external servers as part of its core functionality.
+
+While reasonable efforts are made to design the App responsibly and securely, no method of electronic storage can be guaranteed to be completely secure.
 
 ## 9. Your Choices
 
-You may stop using the App at any time.  
-You may also remove app data by deleting the App from your device.
+You may stop using the App at any time.
 
-You can manage permissions granted to the App through your device settings.
+You may remove locally stored app data by deleting the App from your device.
+
+Permissions granted to CalcGate can also be managed or revoked through your device’s Screen Time and Settings menus.
 
 ## 10. Changes to This Privacy Policy
 
-This Privacy Policy may be updated from time to time. Any updates will be reflected by revising the effective date above.
+This Privacy Policy may be updated from time to time.
+
+Any future updates will be reflected by revising the effective date shown above.

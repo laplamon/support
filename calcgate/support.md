@@ -2,68 +2,109 @@
 
 Welcome to CalcGate support.
 
-CalcGate is an app that helps you lock selected apps until you either solve a math challenge correctly or the preset unlock time is reached. It is designed to make unlocking more intentional by adding friction before access is restored.
+CalcGate is a focus and self-control app that helps reduce impulsive app usage by restricting selected apps until you either solve a math challenge or wait for the lock period to end.
+
+The app is designed to make unlocking intentional by adding friction before access is restored.
 
 ## Main Features
 
-- Lock selected apps or app categories
-- Configure math difficulty
-  - number of digits
-  - math operations
-  - number of questions
-- Set a time-based unlock condition
-- Unlock by either:
-  - answering all math questions correctly
-  - waiting until the preset unlock time is reached
-- Reset challenge progress after a wrong answer
-- Prevent settings changes while the lock is active
+* Restrict selected apps or app categories
+* Start manual locks instantly
+* Create recurring daily lock schedules
+* Configure math challenge difficulty
+
+  * number of digits
+  * addition and subtraction problem types
+  * number of questions
+* Set optional timer-based automatic unlocks
+* Unlock early by solving all math questions correctly
+* Reset challenge progress after incorrect answers
+* Prevent settings changes while a lock is active
+* Temporarily prevent app removal while restrictions are active
 
 ## How to Use
 
+### Manual Lock
+
 1. Open **Settings** in the app
-2. Choose:
-   - difficulty
-   - operations
-   - number of questions
-   - restricted apps
-3. Return to the home screen
-4. Tap **Start Lock**
-5. While the lock is active, selected apps remain restricted
-6. To unlock, either:
-   - tap **Solve to Unlock** and complete the math challenge successfully
-   - wait until the preset unlock time is reached
+2. Configure:
+
+   * challenge difficulty
+   * math operations
+   * number of questions
+   * restricted apps or categories
+3. Optionally set an unlock timer
+4. Return to the home screen
+5. Tap **Start Lock**
+
+While the lock is active, selected apps remain restricted until:
+
+* the math challenge is completed successfully, or
+* the unlock timer reaches its end time
+
+### Scheduled Lock
+
+1. Open **Settings**
+2. Create a recurring daily schedule
+3. Choose:
+
+   * start time
+   * duration
+4. Save the schedule
+
+CalcGate will automatically apply and remove restrictions based on the configured schedule.
+
+## Unlocking Restricted Apps
+
+To unlock restricted apps before a timer or schedule ends:
+
+1. Open CalcGate
+2. Tap **Solve to Unlock**
+3. Answer every math problem correctly
+
+If an incorrect answer is submitted, challenge progress resets and the challenge must be restarted from the beginning.
 
 ## Important Notes
 
-- FamilyControls permission is required for app restriction features
-- You cannot change challenge settings or unlock settings while the lock is active
-- If you answer a question incorrectly, your current challenge progress is reset
-- The lock can be removed when all questions are answered correctly or when the preset unlock time is reached
-- Current settings are stored locally on your device
+* Screen Time / FamilyControls permission is required for restriction features
+* Settings cannot be changed while a lock is active
+* Restricted apps remain protected until unlock conditions are met
+* App removal prevention may be enabled during active locks to reduce bypass attempts
+* All settings and lock data are stored locally on your device
+* No account is required
 
 ## Troubleshooting
 
 ### The app asks for permission
 
-CalcGate requires FamilyControls authorization to manage restricted apps. Please grant permission when prompted.
+CalcGate requires Screen Time authorization to manage restricted apps. Please grant permission when prompted.
 
 ### I cannot change settings
 
-If the lock is currently active, settings are intentionally disabled until the lock is removed. This prevents the difficulty, number of questions, restricted apps, or unlock time from being changed during an active lock.
+Settings are intentionally disabled while a lock is active. This prevents challenge difficulty, restricted apps, schedules, or unlock conditions from being weakened during an active lock.
 
 ### The lock does not start
 
 Please make sure:
 
-- FamilyControls permission has been granted
-- at least one app or category has been selected
-- the app is not already in a locked state
-- the required lock settings have been configured
+* Screen Time permission has been granted
+* at least one app or category has been selected
+* lock settings have been configured correctly
+* the app is not already locked
+
+### Scheduled locks are not working
+
+Please check that:
+
+* the schedule is enabled
+* Screen Time permission is still active
+* the device time and timezone are correct
+* the app has not been restricted by system settings
 
 ### I closed the app during a challenge
 
-The app is designed to return to the home screen when reopened, rather than restoring an incomplete challenge screen. If the lock is still active, you can start the unlock challenge again or wait until the preset unlock time is reached.
+If the app is closed during a challenge, the current challenge session is not restored automatically. If the lock is still active, you can start the unlock challenge again or wait until the timer or schedule ends.
 
 ### The unlock time has not been reached yet
 
-If the preset unlock time has not been reached, selected apps will remain restricted unless you complete the math challenge successfully.
+If the unlock timer or scheduled lock period is still active, restricted apps will remain unavailable unless the math challenge is completed successfully.
